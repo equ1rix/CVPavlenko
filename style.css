@@ -28,7 +28,7 @@ html{
 .l {
   position: absolute;
   top: 18px;
-  left: 20px;
+  left: 17px;
   font-size: 1.2em;
 }
 
@@ -210,17 +210,10 @@ h1{
   max-width: 550px;
   margin-left: -20px;
   padding-top: 10px;
-  font-size: 29px;
 }
 
-.my-bio .hi {
+.my-bio h2 {
   margin-left: 1%;
-  font-size: 32px;
-
-}
-
-.my-bio .text{
-  font-size: 30px;
 }
 
 .my-bio .last{
@@ -228,16 +221,23 @@ h1{
   text-align: center;
   text-decoration: underline;
 }
-
-
+      
+.my-bio .text{
+  font-size: 30px;
+}
 
 
 
 @media (max-width: 1000px) {
-    .global {
-        margin-top: 45%;
+  .global {
+      margin-top: 45%;
 
-    }
+  }
+
+      
+  .my-bio .text{
+    font-size: 30px;
+  }
 
 }
 
@@ -344,7 +344,7 @@ h1{
     padding-top: 10px;
   }
 
-  .my-bio .text {
+  .my-bio .text{
     font-size: 29px;
   }
 }
@@ -441,7 +441,7 @@ h1{
     padding-top: 10px;
   }
 
-  .my-bio .text {
+  .my-bio .text{
     font-size: 25px;
 
   }
